@@ -1,0 +1,8 @@
+<resources>
+<string name="app_name">Jetback</string>
+<string name="code_label">Code</string>
+<string name="code_hint">Please enter the representative code to download all data from the server</string>
+<string name="password_label">Password</string>
+<string name="admin_password_label">Admin Password</string>
+<string name="continue_button">Continue</string>
+</resources>

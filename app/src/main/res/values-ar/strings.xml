@@ -1,0 +1,7 @@
+<resources>
+    <string name="code_label">رقم الكود</string>
+    <string name="code_hint">من فضلك ادخل رقم المندوب لتنزيل جميع بياناته من الجهاز الخادم</string>
+    <string name="password_label">كلمة المرور</string>
+    <string name="admin_password_label">كلمة مرور الأدمن</string>
+    <string name="continue_button">استكمال</string>
+</resources>
