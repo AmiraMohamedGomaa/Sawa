@@ -44,7 +44,10 @@ import com.example.jetback.ui.theme.JetbackTheme
 import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VisibilityOff
 import androidx.compose.ui.res.stringResource
+import dagger.hilt.android.AndroidEntryPoint
+import dagger.hilt.android.HiltAndroidApp
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,7 +65,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun SyncLoginScreen() {
     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl){
-        var code by remember { mutableStateOf("") }
+        var code
+        by remember { mutableStateOf("") }
         var password by remember { mutableStateOf("") }
         var adminPassword by remember { mutableStateOf("") }
         var passwordVisible by remember { mutableStateOf(false) }

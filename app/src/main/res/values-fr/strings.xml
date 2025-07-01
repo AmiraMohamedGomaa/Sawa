@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TextReturnedNotExceedTotal">Pour les factures de retour, Max ce que vous pouvez payer est le total de la facture.</string>
+    <string name="Next">Suivant</string>
+    <string name="Previous"> précédent </string>
+    <string name="Total">Total:</string>
+    <string name="Net">Net</string>
+    <string name="Discount">Remise </string>
+    <string name="Tax">impôt</string>
+    <string name="OrderNo">ordre#</string>
+    <string name="Edit">Modifier</string>
+    <string name="PCCS">UV/SUV</string>
+    <string name="Item">Article</string>
+    <string name="Price">Prix:</string>
+    <string name="TextSalesmanStock">Vendeur Stockage</string>
+    <string name="TextCarStock">Voiture Stock</string>
+    <string name="TextIsPrintSucceed">Procédé d\'impression est terminée avec succès?</string>
+    <string name="TextPrintErrorRetry">Voulez-vous réimprimez le document?</string>
+    <string name="AlertTitle">Vérifiez opération a réussi</string>
+    <string name="YES">Oui</string>
+    <string name="NO">Non</string>
+    <string name="OK">oui</string>
+    <string name="cancelOrderConfirmationMessage">Voulez-vous annuler l\'opération?</string>
+    <string name="Cancel">Annuler</string>
+    <string name="GeneralTargets">objectifs généraux</string>
+    <string name="CurrentMonth">Mois en cours</string>
+    <string name="Target">objectif</string>
+    <string name="Actual">Actuel</string>
+    <string name="Rest">Reste</string>
+    <string name="TotalSales">Total Ventes</string>
+    <string name="NumberOfVisits">Nombre de visites</string>
+    <string name="Productivity">BP</string>
+    <string name="AvgLPC">Moyenne LPC</string>
+    <string name="InitSales">Ventes initiales</string>
+    <string name="DealingWithCustomers">Clients traitants</string>
+    <string name="TodaySalesWOTaxes">Ventes d\'aujourd\'hui</string>
+    <string name="TodaySalesWTaxes">Aujourd\'hui, avec les taxes de vente</string>
+    <string name="PreviousMonth">Mois précédent</string>
+    <string name="ItemTarget">Objectifs des articles</string>
+    <string name="Close">terminer</string>
+    <string name="ItemName">Nom de l\'article</string>
+    <string name="CarStore">voiture stockage</string>
+    <string name="ItemCode">Code Article</string>
+    <string name="Opening">Ouverture</string>
+    <string name="Current">Courant</string>
+    <string name="Sold">Qté vendu</string>
+    <string name="Print">Imprimer</string>
+    <string name="chkDataCollection">Collecte des données</string>
+    <string name="chkPresentation">présentation</string>
+    <string name="chkInvoice">Facture</string>
+    <string name="btnCustomerInfo">Information du client</string>
+    <string name="btnCustomerTarget">Objectifs de la Clientèle</string>
+    <string name="btnPreviousInvoice">Factures non payés</string>
+    <string name="btnTodayInvoice">Facture d\'ajourd\'hui</string>
+    <string name="btnCustomerComments">Commentaires des clients</string>
+    <string name="btnReturnedInvoice">Factures avoirs</string>
+    <string name="btnSalesmanStock">Stock des Vendeurs</string>
+    <string name="btnDataColection">Collection de données</string>
+    <string name="btnMasterComand">Collection de données</string>
+    <string name="btnNegativecall">Visite négative</string>
+    <string name="btnPayment">Paiement</string>
+    <string name="btnReports">Rapports</string>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">SAWA</string>
+    <string name="WEEK_DAYS_PROMPT">Choisissez un jour</string>
+    <string-array name="WEEK_DAYS">
+        <item>samedi</item>
+        <item>dimanche </item>
+        <item>lundi </item>
+        <item>mardi </item>
+        <item>mercredi </item>
+        <item>jeudi </item>
+        <item>vendredi</item>
+        <item> Tous les jours</item>
+    </string-array>
+    <string name="PAYMENT_TYPE_PROMPT">Choisissez un jour</string>
+    <string-array name="PAYMENT_TYPE">
+        <item>Tous</item>
+        <item>Espèces</item>
+        <item>Chèque</item>
+        <item>Crédit</item>
+    </string-array>
+    <string name="TextInvoicesReports">Rapports factures</string>
+    <string name="TextOrderAllowPacketsPerCartons">CS/PL/PC</string>
+    <string name="TextOrderPacketsPerCartons">CS/PL</string>
+    <string name="TextSoldItems">Quantités Vendues</string>
+    <string name="Competitors">Choisissez un concurrent</string>
+    <string name="CompetitionField">Domaine de concurrence:</string>
+    <string name="CompetitorProducts">Concurrent:</string>
+    <string name="AdvertisingMaterials">matériel publicitaire</string>
+    <string name="Comments">
+    <u>Commentaires</u>
+  </string>
+    <string name="PaymentTypetitle">Paiement</string>
+    <string-array name="paymentType_array">
+        <item>Espèces</item>
+        <item>Crédit</item>
+        <item>Chèque</item>
+    </string-array>
+    <string name="DeliveryDateTitle">date de livraison</string>
+    <string name="ChangeDate">Changer la date</string>
+    <string name="Comment">commenter</string>
+    <string name="Delete">effacer</string>
+    <string name="CreditLimit">Limite de crédit</string>
+    <string name="Balance">Balance:</string>
+    <string name="DiscountPerc">Remise%</string>
+    <string name="Percentage">%</string>
+    <string name="TextInvoice">&lt; facture &gt;</string>
+    <string name="TextReturnedInvoice">&lt; facture de retour &gt;</string>
+    <string name="TextCartonPerPallet">UV/SUV</string>
+    <string name="TextCartonPerPacket">UV/SUV/Pc</string>
+    <string name="TextCustomerExceededCreditLimit" formatted="false">Le Client a dépassé la limite de crédit de %1 , la balance actuelle est %2. Nouvelle balance rejetée est %3. Prière de demander au Client de payer%4 pour être en mesure de sauver la commande.</string>
+    <string name="TextSalesmanExceededCreditLimit" formatted="false">
+    Vous avez dépassé votre limite de crédit %1, vous ne pouvez pas faire l\'ordre d\'une valeur totale supérieure à %2
+  </string>
+    <string name="TextOrderExit" formatted="false">Voulez vous annuler la facture?</string>
+    <string name="TextExceedMaxDiscount" formatted="false">Ne doit pas dépasser maximale autorisée escompte, en pourcentage de %1%</string>
+    <string name="ItemNo">Article#</string>
+    <string name="AskToEnterChequeNo">S\'il vous plaît entrez Non Chèque:</string>
+    <string name="TextOrderNotFound">Ce numéro d\'ordre ne peut pas trouver dans la liste des commandes doivent être payées, souhaitez-vous continuer avec ce numéro d\'ordre de quelque façon?</string>
+    <string name="Customer">choisir un client</string>
+    <string name="CategoryType">Type De Catégorie</string>
+    <string-array name="CATEGORY_TYPE">
+        <item></item>
+        <item>Hebdomadaire</item>
+        <item>Mensuelle</item>
+        <item>Trimestrielle</item>
+        <item>Recommandée</item>
+    </string-array>
+    <string name="TextSelectCustomer">Prière de sélectionner le Client</string>
+    <string name="CustomerComplaintsTitle">
+    <u>Plaintes Des Clients:</u>
+  </string>
+    <string name="NegativeCallTitle">
+    <u>Négatif Visitez Reason:</u>
+  </string>
+    <string name="ReportTypes">type de rapport</string>
+    <string-array name="REPORT_TYPE">
+        <item>Ventes</item>
+        <item>stock</item>
+        <item>Objectif</item>
+    </string-array>
+    <string name="Pay">
+    <u>Paiement</u>
+  </string>
+    <string name="OpenOrderFilter">Filtre</string>
+    <string name="stock">Stock:</string>
+    <string name="view">Visualiser</string>
+    <string-array name="Order_Filter">
+        <item>ALL</item>
+        <item>Assortment</item>
+        <item>Focus</item>
+        <item>Others</item>
+    </string-array>
+    <string name="DeleteOrderLine">Supprimer ligne de commande</string>
+    <string name="DeleteALLOrderLines">Supprimez toutes les lignes de commande</string>
+    <string name="CopySameQtyAsBefore">copiez une qté identique à la précédente</string>
+    <string name="EditActions">Modifier</string>
+    <string name="TextInvalidPrice">Impossible de commander un article avec un prix d\'article non valide.</string>
+    <string name="TextNoStock">Stock Insuffisant</string>
+    <string name="TextInsufficientPromotedItems">Insuffisance des articles spéciaux promu stock de %1</string>
+    <string name="ANSWERS">répondre</string>
+    <string name="category">Catégorie</string>
+    <string name="SURVEY_CATEGORY">Catégorie d\'enquête</string>
+    <string name="DataCollectionSave1">Certaines questions sont restées sans réponse.</string>
+    <string name="DataCollectionSave2"> Etes-vous sûr de vouloir sauvegarder et quitter?</string>
+    <string name="DataCollectionAlert">sauver la collecte des données</string>
+    <string name="ErrorMessage">incapable d\'enregistrer des données</string>
+    <string name="MakePaymentMessage">Effectuer un paiement pour les informations sont enregistrées</string>
+    <string name="save">Enregistrer</string>
+    <string name="EndJourneyHeader">
+   <!--
+  <string name="OSATITLE">On Shelf Availability</string>
+  <string name="SOSTITLE">Share of Shelf</string>
+  <string name="SHELFSTDTITLE">Questions</string>
+  <string name="PRICETITLE">Price Compliance</string>
+  <string name="FOLDERTITLE">Share of folder</string>
+  <string name="PROMAVTITLE">Promotion Availability</string>
+  <string name="NPDTITLE">NPD</string>
+  <string name="POSTITLE">Pos Material</string>-->
+        <u><b>Fin tournée</b></u>
+  </string>
+    <string name="StartJourneyHeader">
+    <u>Début tournée</u>
+  </string>
+    <string name="TextEnterJourneyStartKm">S\'il vous plaît entrez voyage commencer à lire km</string>
+    <string name="TextEnterJourneyEndKm">S\'il vous plaît entrez voyage terminer la lecture km</string>
+
+    <string name="EndJourney">Fin du parcours</string>
+    <string name="Warning">
+   <u>
+     Attention :
+   </u>
+ </string>
+    <string name="WarningText1">
+    VOUS SEREZ COINCÉ A CE POINT A MOINS QUE VOUS ETES CONNECTE AU RESEAU VIA UN ORDINATEUR OU GPRS
+  </string>
+    <string name="WarningText2">En mettant fin à voyage, vous ne serez pas en mesure d\'utiliser le système sauf si vous démarrez voyage et effectuez sont synchronisés.</string>
+    <string name="WarningText3">Sur le bouton contenant la partie du texte ci-dessous pour continuer.</string>
+    <!--Applicable & not -->
+    <string name="APPLICABLE">valable</string>
+    <string name="NOTAPPLICABLE">PAS valable</string>
+    <string name="I">  Je  </string>
+    <string name="WantTo">Veux</string>
+    <string name="Proceed">continuer</string>
+    <string name="Confirm">Je</string>
+    <string name="TextUserMustSync">Vous devez synchroniser avant de commencer à nouveau voyage</string>
+    <string name="OSATITLE">sur étagère disponibilité</string>
+    <string name="SOSTITLE">part de étagère</string>
+    <string name="SHELFSTDTITLE">Les questions</string>
+    <string name="PRICETITLE">prix conformité</string>
+    <string name="FOLDERTITLE">part de dossier</string>
+    <string name="PROMAVTITLE">promotion disponibilité</string>
+    <string name="NPDTITLE">NPD</string>
+    <string name="POSTITLE">Pos matériel</string>
+    <string name="New_Version_Notification">S\'il vous plaît aller à l\'Office de synchroniser à l\'aide du câble pour obtenir la version nouvelle application.</string>
+    <string name="PleaseWait">Attendez s\'il vous plaît</string>
+    <string name="Upload_Notification">Les données envoyées au serveur</string>
+    <string name="WAIT_For_SYNCDOWN">Live Sync est en cours de téléchargement les mises à jour que l\'nécessaires pour exécuter l\'application SAWA,   une fois que sa complète il va commencer l\'application SAWA immédiatement.</string>
+    <string name="SalesmanStock">Stock Vendeur</string>
+    <string name="CarStock">voiture stock</string>
+    <string name="Journey">
+    <u><b>voyage</b></u>
+  </string>
+    <string name="entersalesmanCode">S\'il vous plaît entrez le numéro de vendeur à être utilisé pour obtenir toutes les informations sur ce vendeur et pour télécharger les derniers clients disponibles, les articles, les prix d\'articles, promotions, etc ...</string>
+    <string name="SalesmanCodeTitle">vendeur numéro </string>
+    <string name="GetSalesmanInfo">Récupération info Salesman, cela peut prendre quelques minutes. S\'il vous plaît patienter ...</string>
+    <string name="WarningSalesmanCode">S\'il vous plaît, Entrez le numéro de vendeur.</string>
+    <!--Competitor-->
+    <string name="CompetitorTitle">Activité des concurrents d\'enregistrement</string>
+    <string name="AdvertisingMaterial">Matériel publicitaire:</string>
+    <string name="YieldOfProduct">vérifier le produit:</string>
+    <string name="CaseConfiguration">Configuration de cas:</string>
+    <string name="Product">produit:</string>
+    <string name="ActivityType">type d\'activité:</string>
+    <string name="PromotionStartDate">Début de la promotion:</string>
+    <string name="PriceCom">prix:</string>
+    <string name="Seller">vendeur:</string>
+    <string name="Consumer">consommateur:</string>
+    <string name="Promotiononproduct">Promotion sur le produit:</string>
+    <!--end competitor-->
+    <string name="RetrievingSalesmanInfo">Récupération info Salesman, cela peut prendre quelques minutes. S\'il vous plaît attendre...</string>
+    <string name="Unabletoretrieve">ne peut pas récupérer d\'informations vendeur en raison de l\'erreur suivante:</string>
+    <string name="SalesmanInfoTitle">Information sur vendeur Récupérée</string>
+    <string name="Continue">continuer</string>
+    <string name="InvalidAdminPassword">Mot de passe administrateur valide</string>
+    <string name="SetupNewSalesmanSuccessful">Vous avez réussi à configurer le code de nouveau vendeur, mais vous ne seriez pas en mesure d\'utiliser l\'application SAWA moins que l\'opération de synchronisation est terminée.</string>
+    <string name="EnterAdminPassword">S\'il vous plaît, laissez votre administrateur système ne pénètre dans son / ici le mot de passe pour authentifier ce processus...</string>
+    <string name="Password">mot de passe: </string>
+    <string name="SalesmanAdminPasswordTitle">Administrateur Identifiez-vous</string>
+    <string name="SyncWaitTitle">
+    <h1> SAWA</h1>
+  </string>
+    <string name="DownloadFailed">télécharger  manqué</string>
+    <string name="DownloadComplete">Télécharger terminé</string>
+    <string name="StartSyncError">Début Erreur de synchronisation</string>
+    <string name="SyncUpError">Synchronisez erreur (Sync UP)</string>
+    <string name="WrongPassword">Mot de passe incorrect</string>
+    <string name="NO_VALID_COUPONS">Pas de coupons valides pour ce client</string>
+    <string name="lblSyncMessage1">S\'il vous plaît attendre jusqu\'à ce que les données sont reçues ... Ce processus peut prendre quelques minutes.</string>
+    <string name="ReceivingData">Réception de données...</string>
+    <string name="SYSTEMFAULT">SAWA SYSTEME ERREUR</string>
+    <string name="SyncDownError">La mise à jour d\'erreur de données. Nous sommes désolés pour arrêter le système jusqu\'à ce que cette erreur est effacée du côté serveur, S\'il vous plaît contacter le support technique.</string>
+    <string name="PltPerCrt">PC/CS:</string>
+    <string name="OSA">OSA</string>
+    <string name="InvalidPrice">N/A</string>
+    <string name="Regular">Reg.</string>
+    <string name="Promoted">Prom.</string>
+    <string name="RegularPlusPromoted">Prom+Reg</string>
+    <string name="Ordered">Ord.</string>
+    <string name="All_Brands">toutes les marques</string>
+    <string name="GSV">Mon.:</string>
+    <string name="CS">UV:</string>
+    <string name="PLT">SUV:</string>
+    <string name="PC">PC:</string>
+    <string name="OrderDetBalance">Solde</string>
+    <string name="OrderDetTotal">Total</string>
+
+    <string name="CashierTitle">Cashier</string>
+    <string name="Paid">Payé:</string>
+    <string name="Value">Valeur:</string>
+    <string name="Add">Ajouter</string>
+    <string name="TextCashierWarning">Est-ce que vous êtes sûr vous voulez toucher de largent?</string>
+    <string name="TextCashierPaymentMessage">Vous devez payer %1</string>
+    <string name="TextCashierAmountError">Le montant maximal a dépasé</string>
+
+    <string name="Branch">Branche:</string>
+    <string name="Salesman">Vendeur:</string>
+    <string name="Synchronization">Sync</string>
+    <string name="StartJourney">Debut Tournee</string>
+    <string name="ItemLoad">Bon De Charge</string>
+    <string name="Chargment">Chargment</string>
+    <string name="Cashier">Caissier Collection</string>
+    <string name="Plan">Suivi FCS</string>
+    <string name="Reports">Rapports</string>
+    <string name="CompetitorReport">Rapports de con.</string>
+    <string name="VisitCustomer">Visite Client</string>
+
+    <string name="TextCharge">Chargment</string>
+    <string name="ItemLoading">Bon De Charge</string>
+    <string name="DischargeAll">Décharge Tout</string>
+    <string name="LimitValue">L.s.:</string>
+    <string name="StockValue">Stock total:</string>
+    <string name="CrtPlus">UV+:</string>
+    <string name="PltPlus">SUV+:</string>
+    <string name="CrtMinus">UV-:</string>
+    <string name="PltMinus">SUV-:</string>
+    <string name="Recommended">SecStk:</string>
+    <string name="TextSecurityStock">Chargement Quantite d &quot;article est moins de stock security</string>
+
+    <string name="TextNoItemSelected">No Item Selected !!</string>
+    <string name="TextRequestIsSaved">Data is Saved Successfully </string>
+    <string name="TextProblemInSavingData">There is a problem in saving some records, Kindly contact you admin</string>
+    <string name="TextRequestedLargerThanAllowed">Requested Value is larger than maximum allowed</string>
+
+    <string name="Carton"> CS </string>
+    <string name="TextDischargeError">Dischargement est negative Quantite</string>
+    <string name="TextMaximumSalesmanStockLimitExceeded" formatted="false">Vous avez dépassé votre voiture stock valeur limite de %1 à %2</string>
+    <string name="DischargeWarning">Est-ce que vous êtes sûr vous voulez décharger tous les articles?</string>
+    <string name="SYNC">Transfert</string>
+    <string name="NoThingToCharge">Rien à charger ou décharger</string>
+    <string name="LPPC">LPPC</string>
+    <string name="ECO">ECO</string>
+    <string name="ECOPer">ECO%</string>
+    <string name="DuplicatedConfiguration">Vous ne pouvez pas continuer l&quot;existence d&quot;un autre appareil pour le même délégué, S&quot;il vous plaît contactez votre administrateur système</string>
+    <string name="stop">STOP</string>
+    <string name="stopMessage">S&quot;il vous plaît contacter l&quot;administrateur, appareils dupliqués pour ce même vendeur ..</string>
+    <string name="NoCustomerInfo">Pas de données pour le client</string>
+    <string name="loading1">Chargement des données</string>
+    <string name="loading2">SAWA va redémarrer Après chargement des données de finition ..</string>
+    <string name="ItemWithoutStock">Des produits sans valeur</string>
+    <string name="ForceAnswerQuestions">Vous devez répondre à toutes les questions.</string>
+    <string name="stop_Incorrect_sime">Contactez votre administrateur système</string>
+    <string name="name">nom</string>
+    <string name="salesector">Secteur Vente</string>
+    <string name="code">code</string>
+    <string name="address">adresse</string>
+    <string name="area">zone</string>
+    <string name="mobile">mobile</string>
+    <string name="telephone">téléphone</string>
+    <string name="visitstate"> VISITE D\'ÉTAT</string>
+    <string name="TargetActual">objectif Réel</string>
+    <string name="PPIncentive">Etat de visite</string>
+    <string name="QIncentive">Q Incentive</string>
+    <string name="customerCard">carte de client</string>
+    <string name="Info">informations</string>
+    <string name="Visit">visiter</string>
+    <string name="CurrentDay">aujourd\'hui</string>
+    <string name="singalstatus1">Faible signal GPS</string>
+    <string name="singalstatus2">S\'il vous plaît se tenir près d\'une fenêtre ou à l\'extérieur</string>
+    <string name="TextReceiptNo">Receipt No. </string>
+    <string name="TextSalesmanName">Salesman Name: </string>
+    <string name="TextReceived">Received with thanks from M/s </string>
+    <string name="TextCustomerCode">Customer Code </string>
+    <string name="TextDate">Date:</string>
+    <string name="TextAmount">Amount </string>
+    <string name="TextPaidThrough">Paid Through     :</string>
+    <string name="TextCash">CASH</string>
+    <string name="TextCheque">CHEQUE</string>
+    <string name="TextChequeNo">Cheque No.  </string>
+    <string name="TextDated"> Dated       </string>
+    <string name="TextBank">Bank</string>
+    <string name="TextPaid">Paid on Account of (details as under must be filled):</string>
+    <string name="TextDashed">---------------------------------------------------------------------</string>
+    <string name="TextInvoiceDetail">|           Invoice Detail                  |           |           |</string>
+    <string name="TextPaymentBalance">|-------------------------------------------| Payment   | Balance   |</string>
+    <string name="TextInvoiceAmountPaid">|  Invoice No.    |  Amount     |   Paid    |           |           |</string>
+    <string name="singalstatus3">Un signal fort réseau</string>
+    <string name="TextReceipt">R E C E I P T</string>
+    <string name="UserChangeDateToEarlierDate">Vous n\'êtes pas autorisé à continuer comme vous avez changé la date de début du temps !!!!</string>
+    <string name="NoMessagesToShow">Pas de messages à afficher</string>
+    <string name="MustReadAllMessages">Vous devez lire tous les messages avant de vous quitter cette page</string>
+    <string name="Achievement">Réalisation</string>
+    <string name="CashierPasswordTitle">Mot de passe caissier</string>
+    <string name="EnterCashierPassword">Introduire mot de passe de versement SVP</string>
+    <string name="CANTSELLGIFTITEM">Vous ne pouvez pas vendre Gift Item</string>
+    <string name="GPSDisabled">GPS est désactivé, veuillez l\'activer GPS</string>
+    <string name="CancelOrder">Annuler</string>
+    <string name="SoldAmount">total</string>
+    <string name="btnUnconstrainedOrder">Ordre sans limite</string>
+    <string name="SalesmanCreditLimitAlert">Vérifier limite de crédit vendeur</string>
+    <string name="UnconstrainedOrder">commande sans limite</string>
+    <string name="ConnectivityAlert">Vous ne pouvez pas imprimer et de synchroniser le moment en raison d\'une erreur de connexion, veuillez réessayer plus tard.</string>
+    <string name="StockAlert">Stock a été mis à jour.</string>
+    <string name="OrderCancelledAlert">Cette commande déjà annulé.</string>
+    <string name="DiscountTitle">Remise</string>
+    <string name="AvailableCoupons">Coupons disponibles</string>
+    <string name="CoupounValue">Coupon Valeur :</string>
+    <string name="LargeCoupon">Coupon valeur est supérieure au montant de la commande.</string>
+    <string name="CustomerInvoiceLimit">You can\'t make order with net value less than %1.</string>
+    <string name="DateErrorMessage">Can not select Date before tomorrow</string>
+    <string name="btnCompetitor">Competitros</string>
+    <string name="lblPriceMessage">Please enter price per packing.</string>
+    <string name="lblItemWeight">Item Weight</string>
+    <string name="lblPackSize">Pack Size</string>
+    <string name="lblPricePerPackage">Price Per Package</string>
+    <string name="lblCurrency">Currency</string>
+    <string name="lblConsumption">Consumption</string>
+    <string name="lblComment">Comment</string>
+    <string name="btnSave">Confirmer</string>
+    <string name="btnFSDataCollection">Démonstration</string>
+    <string name="lblCreditLimitTitle">Limite de crédit:</string>
+    <string name="lblAddComment">Commentaire</string>
+    <string name="lblCommentTitle">Commentaire:</string>
+    <string name="lblFromTitle">Dès:</string>
+    <string name="lblToTitle">à:</string>
+    <string name="lblOrdersNotCompletedTitle">Commandes pas complètement payé</string>
+    <string name="lblInvoiceNoTitle">Facture#:</string>
+    <string name="lblDebitTitle">Débit:</string>
+    <string name="lblCreditTitle">Crédit:</string>
+    <string name="lblBalanceTitle">Balance:</string>
+    <string name="lblPayTitle">Payer</string>
+    <string name="AskToAddPayment">Voulez-vous ajouter des paiement au nouveau numéro de commande?</string>
+    <string name="PltPriceOrder">PX PS:</string>
+    <string name="PriceOrder">PX CC:</string>
+    <string name="AllBrands">Tout produits</string>
+    <string name="AllCategories">Tout</string>
+    <string name="FSInvoice">TOF</string>
+    <string name="lblFSSalesmanTitle">Sales rep:</string>
+    <string name="lblSalesmanTitle">Vendeur:</string>
+    <string name="FSSalesmanStock">Sales rep Stock</string>
+    <string name="OrderTotal">total de la commande:</string>
+    <string name="PhotosDownloadError">Error while downloading photos.......</string>
+    <string name="ReceivingPhotos">Receiving Photos</string>
+    <string name="PresentationMessage">Désolé aucun fichier ne est disponible pour la présentation</string>
+    <string name="LowDiskMessage">Impossible de charger les fichiers de présentation, se il vous plaît libérer de l\'espace ou contactez l\'équipe de support.</string>
+    <string name="OpenPDFTitle">Cliquez ici pour ouvrir PDF</string>
+    <string name="FileNotFoundTitle">Fichier non trouvé à ouvrir</string>
+    <string name="HCTotalSales">Home care</string>
+    <string name="PCTotalSales">Personal care</string>
+    <string name="FoodTotalSales">Food</string>
+    <string name="TotalTongue">Tonne Total</string>
+    <string name="DistributorTitle">Choose Distributor</string>
+    <string name="CustomerFollowUpObjectiveTitle">Follow Up Objectives</string>
+    <string name="OSAFSTitle">Demo Check</string>
+    <string name="FSTodayInvoiceTitle">Today TOF</string>
+    <string name="FSDiscountTitle">Dis</string>
+    <string name="Refresh">Actualiser</string>
+    <string name="CurrentValue">Valeur Van Courante : </string>
+    <string name="RequestedValue">Valeur Demandée: </string>
+    <string name="maxAllowedLimit">Max permis Limite: </string>
+    <string name="Submit">Soumettre</string>
+    <string name="WarehouseStock">entrepôt Stock:</string>
+    <string name="CashVanStock">CashVan Stock:</string>
+    <string name="CartonPrice">Prix de Carton:</string>
+    <string name="RecordPrice">La Prix: </string>
+    <string name="ReturnAll">Return All Car Stock</string>
+    <string name="NotAcceptingFractions">Integers only</string>
+    <string name="SendLogMenuHeader">Envoyer log</string>
+    <string name="SendLogMenuItem">Envoyer logs</string>
+    <string name="OverrideCustomerLocation">Voulez-vous remplacer l\'emplacement du client sélectionné par votre emplacement actuel?</string>
+    <string name="TooFarCustomerLocation">Votre position est trop éloignée de l\'emplacement du client enregistré, donc nous ne commencerons pas votre visite.</string>
+    <string name="CreditTermError">Vous devez sélectionner le terme de crédit</string>
+    <string name="customer_does_not_have_location">Le client n\'a pas d\'emplacement. Nous enregistrerons cet emplacement comme emplacement de client. êtes-vous d\'accord?.</string>
+    <string name="customer_over_write_location">L\'emplacement actuel n\'est pas l\'emplacement du client enregistré. Voulez-vous écraser?</string>
+    <string name="far_from_customer_warning">Etes-vous sur de vouloir effectuer la facturation hors du périmètre client</string>
+    <string name="Focus">Focus</string>
+    <string name="Assortment">Assortment</string>
+    <string name="All">All</string>
+    <string name="Other">Other</string>
+    <string name="Suggest">Suggest: </string>
+    <string name="btnRecommendation">Recommendation</string>
+    <string name="RecommendationConfirmation">The customer has shelf capacity recommendation press cancel and get recommendation or press continue to resume your visit</string>
+    <string name="far_by_distance">Vous etes loin du client de 1% m</string>
+    <string name="customer_has_not_location">Le client n\'a pas d\'emplacement, SAWA enregistrera cet emplacement en tant que lieu du client</string>
+    <string name="data_processing">Veuillez patienter, les données sont traitées ...</string>
+    <string name="required_actions_title">Sélectionnez l\'action requise</string>
+    <string name="cabinet_conditions_title">Sélectionnez l\'état du cabinet</string>
+
+
+    <string name="scan_bar_code">Scanner le code à barres</string>
+    <string name="select_cabinet">Sélectionnez l\'état du cabinet</string>
+    <string name="required_action">Sélectionnez l\'action requise</string>
+    <string name="custom_action">Entrez votre action personnalisée</string>
+    <string name="due_date">sélectionnez la date d\'échéance</string>
+    <string name="cabinets_selection">Vous devez sélectionner un cabinet pour commencer votre visite</string>
+    <string name="msg_empty">Ne peut pas être vide!</string>
+    <string name="msg_valid_date">La date requise ne peut être inférieure à la date actuelle</string>
+    <string name="msg_force_action_selection">Vous devez sélectionner une action</string>
+    <string name="scanner_app">Vous devez installer l\'application du scanner</string>
+    <string name="scanner_app_error1">Impossible de se connecter à la plate-forme de code-barres</string>
+    <string name="scanner_app_error2">Aucun code-barres scanné</string>
+    <string name="scanner_no_cabinet">Impossible de trouver le client a cette armoire</string>
+    <string name="low_signal">Le signal du réseau est faible. S\'il vous plaît se tenir près de la fenêtre ou en plein air</string>
+    <string name="high_signal">Le signal de réseau est puissant</string>
+    <string name="WarningSalesmanpass"></string>
+
+</resources>
+

@@ -1,8 +1,545 @@
 <resources>
-<string name="app_name">Jetback</string>
-<string name="code_label">Code</string>
-<string name="code_hint">Please enter the representative code to download all data from the server</string>
-<string name="password_label">Password</string>
-<string name="admin_password_label">Admin Password</string>
-<string name="continue_button">Continue</string>
+    <string name="app_name">Jetback</string>
+    <string name="code_label">Code</string>
+    <string name="code_hint">Please enter the representative code to download all data from the server</string>
+    <string name="password_label">Password</string>
+    <string name="admin_password_label">Admin Password</string>
+    <string name="continue_button">Continue</string>
+    <string name="TextReturnedNotExceedTotal">For Returned Invoices, Max what You can pay is the invoice total.</string>
+    <string name="Next">Next</string>
+    <string name="Previous"> Previous </string>
+    <string name="Total">Total:</string>
+    <string name="Net">Net</string>
+    <string name="Discount_">Discount</string>
+    <string name="Tax">Tax</string>
+    <string name="OrderNo">Order#</string>
+    <string name="Edit">Edit</string>
+    <string name="PCCS">PC/CS</string>
+    <string name="Item">Item</string>
+    <string name="Price">Price</string>
+    <string name="ca">Price</string>
+    <string name="TextSalesmanStock">Salesman Stock</string>
+    <string name="TextCarStock">Car Stock</string>
+    <string name="TextIsPrintSucceed">Is printing process completed successfully?</string>
+    <string name="TextPrintErrorRetry">Do you want to reprint the document?</string>
+    <string name="AlertTitle">Check Operation Succeeded</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="OK">Ok</string>
+    <string name="cancelOrderConfirmationMessage">Do you want to cancel the order?</string>
+    <string name="GeneralTargets">General Targets</string>
+    <string name="CurrentMonth">Current Month</string>
+    <string name="Reset">Reset</string>
+
+    <string name="Target">Target</string>
+    <string name="Actual">Actual</string>
+    <string name="Rest">Rest</string>
+
+    <string name="TotalSales">Total Sales</string>
+    <string name="NumberOfVisits">No. Of Visits</string>
+    <string name="Productivity">Productivity</string>
+    <string name="AvgLPC">Avarage LPC</string>
+    <string name="InitSales">Init. Sales</string>
+    <string name="DealingWithCustomers">Dealing Customers</string>
+
+    <string name="TodaySalesWOTaxes">Today Sales Without Taxes</string>
+    <string name="TodaySalesWTaxes">Today Sales With Taxes</string>
+
+    <string name="PreviousMonth">Previous Month</string>
+    <string name="ItemTarget">Items\' Targets</string>
+    <string name="Close">Close</string>
+    <string name="ItemName">Item Name</string>
+
+    <string name="CarStore">Car Store</string>
+    <string name="ItemCode">Item Code</string>
+    <string name="Opening">Opening</string>
+    <string name="Current">Current</string>
+    <string name="Sold">Sold</string>
+    <string name="Print">Print</string>
+
+    <string name="chkDataCollection">Data Collection</string>
+    <string name="chkPresentation">Presentation</string>
+    <string name="chkInvoice">Invoice</string>
+    <string name="btnCustomerInfo">Customer Info</string>
+    <string name="btnCustomerTarget">Customer Target</string>
+    <string name="btnPreviousInvoice">Previous Invoice</string>
+    <string name="btnTodayInvoice">Today Invoice</string>
+    <string name="btnCustomerComments">Customer Comments</string>
+    <string name="btnReturnedInvoice">Returned Invoice</string>
+    <string name="btnSalesmanStock">Salesman Stock</string>
+    <string name="btnDataColection">Data Collection</string>
+    <string name="btnMasterComand">Data Collection</string>
+    <string name="btnNegativecall">Negative Call</string>
+    <string name="btnPayment">Payment</string>
+    <string name="btnReports">Reports</string>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">SAWA</string>
+    <string name="WEEK_DAYS_PROMPT">Choose a Day</string>
+    <string-array name="WEEK_DAYS">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>All Days</item>
+    </string-array>
+
+    <string name="PAYMENT_TYPE_PROMPT">Choose a Day</string>
+    <string-array name="PAYMENT_TYPE">
+        <item>All</item>
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Credit</item>
+    </string-array>
+
+    <string name="TextInvoicesReports">Invoices Reports</string>
+    <string name="TextOrderAllowPacketsPerCartons">CS/PL/PC</string>
+    <string name="TextOrderPacketsPerCartons">CS/PL</string>
+    <string name="TextSoldItems">Sold Quantities</string>
+    <string name="Competitors">Choose a competitor</string>
+    <string name="CompetitionField">Choose competition field</string>
+    <string name="CompetitorProducts">Choose competitor products</string>
+    <string name="AdvertisingMaterials">Choose advertising material</string>
+    <string name="Comments">
+    <u>Comments</u>
+  </string>
+
+
+    <string name="PaymentTypetitle">Payment Type</string>
+    <string-array name="paymentType_array">
+        <item>Cash</item>
+        <item>Credit</item>
+        <item>Cheque</item>
+    </string-array>
+    <string name="DeliveryDateTitle">Delivery Date</string>
+    <string name="ChangeDate">Change the date</string>
+    <string name="Comment">Comment</string>
+    <string name="Delete">Delete</string>
+    <string name="CreditLimit">Credit Limit</string>
+    <string name="Balance">Balance:</string>
+    <string name="DiscountPerc">Dis%</string>
+    <string name="Percentage">%</string>
+    <string name="TextInvoice">&lt; Invoice &gt;</string>
+    <string name="TextReturnedInvoice">&lt; Returned Invoice &gt;</string>
+    <string name="TextCartonPerPallet">Cr/Pl</string>
+    <string name="TextCartonPerPacket">Cr/Pl/Pc</string>
+    <string name="TextCustomerExceededCreditLimit" formatted="false">Customer exceeded credit limit of %1, current balance is %2.Rejected new balance is %3.Please ask customer to pay %4 to be able to save the order.</string>
+    <string name="TextSalesmanExceededCreditLimit" formatted="false">You exceeded your credit limit %1,You can\'t make order with total value greater than %2</string>
+    <string name="TextOrderExit" formatted="false">Are you sure that you want to exit this order?</string>
+    <string name="TextExceedMaxDiscount" formatted="false">Can not exceed maximum allowed percentage discount of %1 %</string>
+    <string name="ItemNo">Item#</string>
+    <string name="AskToEnterChequeNo">Please enter Cheque No:</string>
+    <string name="TextOrderNotFound">This order number may not found in the list of orders to be paid, would you like to continue with this order number any way?</string>
+
+    <string name="Customer">Choose customer</string>
+    <string name="CategoryType">Choose category type</string>
+
+    <string-array name="CATEGORY_TYPE">
+        <item></item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Recomended</item>
+    </string-array>
+
+    <string name="TextSelectCustomer">Please select Customer</string>
+    <string name="CustomerComplaintsTitle">
+    <u>Customer Complaints:</u>
+  </string>
+
+    <string name="NegativeCallTitle">
+    <u>Negative Calls:</u>
+  </string>
+
+    <string name="ReportTypes">Choose report type</string>
+    <string-array name="REPORT_TYPE">
+        <item>Sales</item>
+        <item>Stock</item>
+        <item>Target</item>
+    </string-array>
+
+    <string name="Pay">
+    <u>Pay</u>
+  </string>
+    <string name="OpenOrderFilter">Order Filter</string>
+    <string name="stock">Stock:</string>
+    <string name="view">View</string>
+    <string-array name="Order_Filter">
+        <item>ALL</item>
+        <item>Assortment</item>
+        <item>Focus</item>
+        <item>Others</item>
+    </string-array>
+    <string name="DeleteOrderLine">Delete Order Line</string>
+    <string name="DeleteALLOrderLines">Delete ALL Order Lines</string>
+    <string name="CopySameQtyAsBefore">Copy Same Qty As Before</string>
+    <string name="EditActions">Edit</string>
+    <string name="TextInvalidPrice">Can not order an item with an invalid item price.</string>
+    <string name="TextNoStock">Insufficient Stock</string>
+    <string name="TextInsufficientPromotedItems">Insufficient special promoted items stock, Item No %1</string>
+    <string name="ANSWERS">Choose answer</string>
+    <string name="SURVEY_CATEGORY">Choose survey category</string>
+    <string name="DataCollectionSave1">Some questions are not answered.</string>
+    <string name="DataCollectionSave2">Are you sure you want to save and exit?</string>
+    <string name="DataCollectionAlert">Data colletion save</string>
+    <string name="ErrorMessage">Can not save data</string>
+    <string name="save">Save</string>
+    <string name="MakePaymentMessage">Make payment to save</string>
+    <string name="EndJourneyHeader">
+
+    <!--
+  <string name="OSATITLE">On Shelf Availability</string>
+  <string name="SOSTITLE">Share of Shelf</string>
+  <string name="SHELFSTDTITLE">Questions</string>
+  <string name="PRICETITLE">Price Compliance</string>
+  <string name="FOLDERTITLE">Share of folder</string>
+  <string name="PROMAVTITLE">Promotion Availability</string>
+  <string name="NPDTITLE">NPD</string>
+  <string name="POSTITLE">Pos Material</string>-->
+        <u>
+      <b>End Journey</b>
+    </u>
+  </string>
+    <string name="StartJourneyHeader">
+    <u>Start Journey</u>
+  </string>
+    <string name="TextEnterJourneyStartKm">Please enter journey start Km reading</string>
+    <string name="TextEnterJourneyEndKm">Please enter journey end Km reading</string>
+
+    <string name="EndJourney">End Journey</string>
+    <string name="Warning">
+    <u>
+      Warning:
+    </u>
+  </string>
+    <string name="WarningText1">
+    YOU WILL BE STUCK AT THIS POINT
+    UNLESS YOU ARE CONNECTED TO THE NETWORK VIA A COMPUTER OR GPRS.
+  </string>
+    <string name="WarningText2">By ending journey, you will not be able to use the system unless you start journey and make sync.</string>
+    <string name="WarningText3">Click the button containing the part of the text below to continue.</string>
+    <!--Applicable & not-->
+    <string name="APPLICABLE">APPLICABLE</string>
+    <string name="NOTAPPLICABLE">NOT_APPLICABLE</string>
+    <string name="I">  I  </string>
+    <string name="WantTo">WANT TO</string>
+    <string name="Proceed">PROCEED</string>
+    <string name="Confirm">I</string>
+    <string name="Cancel">Cancel</string>
+    <string name="TextUserMustSync">You must Sync before you start new Journey</string>
+    <string name="OSATITLE">On Shelf Availability</string>
+    <string name="SOSTITLE">Share of Shelf</string>
+    <string name="SHELFSTDTITLE">Questions</string>
+    <string name="PRICETITLE">Price Compliance</string>
+    <string name="FOLDERTITLE">Share of folder</string>
+    <string name="PROMAVTITLE">Promotion Availability</string>
+    <string name="NPDTITLE">NPD</string>
+    <string name="POSTITLE">Pos Material</string>
+    <string name="New_Version_Notification">Please go to the Office to sync using cable to get the new Application version.</string>
+    <string name="PleaseWait">Please Wait</string>
+    <string name="Upload_Notification">Data has been sent to the server</string>
+    <string name="WAIT_For_SYNCDOWN">
+    Live Sync is now downloading all updates that\'s necessary to run the SAWA application,
+    once its complete it will start the SAWA Application immediatly.
+  </string>
+    <string name="SalesmanStock">Salesman Stock</string>
+    <string name="CarStock">Car Stock</string>
+    <string name="Journey">
+    <u>
+      <b>Journey</b>
+    </u>
+  </string>
+    <string name="entersalesmanCode">Please enter salesman number to be used to get all information about this salesman and to download the latest available customers, items, item prices,promotions,...etc</string>
+    <string name="SalesmanCodeTitle">Salesman Number </string>
+    <string name="GetSalesmanInfo">Retrieving Salesman Info, this may take a few minutes. Please wait...</string>
+    <string name="WarningSalesmanCode">Please, Enter salesman number.</string>
+
+    <string name="WarningSalesmanpass"> S\'il vous plait entrez votre mot de passe</string>
+    <!--Competitor-->
+    <string name="CompetitorTitle">Record Competitor Activity</string>
+    <string name="AdvertisingMaterial">Advertising Material:</string>
+    <string name="YieldOfProduct">Yield of the product:</string>
+    <string name="CaseConfiguration">Case Configuration:</string>
+    <string name="Product">Product:</string>
+    <string name="ActivityType">Activity Type:</string>
+    <string name="PromotionStartDate">Promotion Start Date:</string>
+    <string name="PriceCom">Price:</string>
+    <string name="Seller">Seller:</string>
+    <string name="Consumer">Consumer:</string>
+    <string name="Promotiononproduct">Promotion on the product:</string>
+    <!--end competitor-->
+    <string name="RetrievingSalesmanInfo">Retrieving Salesman Info, this may take a few minutes. Please wait...</string>
+    <string name="Unabletoretrieve">Unable to retrieve salesman info due to the following error:</string>
+    <string name="SalesmanInfoTitle">Sales Man Info Retrieved</string>
+    <string name="Continue">Continue</string>
+    <string name="InvalidAdminPassword">"Invalid administrator password"</string>
+    <string name="SetupNewSalesmanSuccessful">You have successfully setup for the new salesman code, but you would not be able to use the SAWA application unless the Sync operation is complete.</string>
+    <string name="EnterAdminPassword">Please, let your system administrator enters his/here password to authenticate this process...</string>
+    <string name="Password">Password: </string>
+    <string name="SalesmanAdminPasswordTitle">Admin Identify Yourself</string>
+    <string name="SyncWaitTitle">
+    <h1> SAWA</h1>
+  </string>
+    <string name="DownloadFailed">Download Failed</string>
+    <string name="DownloadComplete">Download Complete</string>
+    <string name="StartSyncError">Start Sync Error</string>
+    <string name="SyncUpError">Sync Up Error</string>
+    <string name="WrongPassword">Wrong Password</string>
+    <string name="NO_VALID_COUPONS">No Valid Coupons for this customer</string>
+    <string name="lblSyncMessage1">Please wait until data is received ... This process may take a few minutes.</string>
+    <string name="ReceivingData">Receiving Data...</string>
+    <string name="SYSTEMFAULT">SAWA SYSTEM FAULT</string>
+    <string name="SyncDownError">Error updating data. We are sorry to stop the system until this error is cleared from server side,Please contact technical support.</string>
+    <string name="PltPerCrt">PC/CS:</string>
+    <string name="OSA">OSA:</string>
+    <string name="InvalidPrice">N/A</string>
+    <string name="Regular">Req.</string>
+    <string name="Promoted">Prom.</string>
+    <string name="RegularPlusPromoted">Prom+Reg</string>
+    <string name="Ordered">Ord.</string>
+    <string name="AllBrands">All Brands</string>
+    <string name="GSV">GSV:</string>
+    <string name="CS">CS:</string>
+    <string name="PLT">PLT:</string>
+    <string name="PC">PC:</string>
+    <string name="OrderDetBalance">Balance</string>
+    <string name="OrderDetTotal">Total</string>
+    <string name="CustomerCardTitle">Customer Card</string>
+    <string name="CustomerTitle">Customer:</string>
+    <string name="SHOW">Show:</string>
+    <string name="BRAND">Brand:</string>
+    <string name="STOCK">Stock</string>
+
+    <string name="TextCharge">Charge</string>
+    <string name="ItemLoading">Car Charge</string>
+    <string name="DischargeAll">Items discharge</string>
+    <string name="LimitValue">maximum limit:</string>
+    <string name="StockValue">stock:</string>
+    <string name="CrtPlus">cr+:</string>
+    <string name="PltPlus">pl+:</string>
+    <string name="CrtMinus">cr-:</string>
+    <string name="PltMinus">pl-:</string>
+    <string name="Recommended">recommended:</string>
+    <string name="TextSecurityStock">the loaded items which less than the recommended</string>
+    <string name="TextDischargeError">the returned items which less than the stock</string>
+    <string name="TextMaximumSalesmanStockLimitExceeded" formatted="false">You exceeded the maximum car limit from %2 to %1</string>
+    <string name="DischargeWarning">Are you sure you want discharge all items?</string>
+    <string name="SYNC">Send Data</string>
+    <string name="NoThingToCharge">No items to charge or discharge</string>
+    <string name="CreditTerm">Credit Term</string>
+    <string name="LPPC">LPPC</string>
+    <string name="ECO">ECO</string>
+    <string name="ECOPer">ECO%</string>
+    <string name="salesector">Salesector</string>
+    <string name="Branch">branch</string>
+    <string name="Salesman">Salesman</string>
+    <string name="Synchronization">Synchronization</string>
+    <string name="StartJourney">Start Journey</string>
+    <string name="ItemLoad">Data Loading</string>
+    <string name="Chargment">Chargment</string>
+    <string name="Cashier">Cashier</string>
+    <string name="Plan">Plan</string>
+    <string name="chargingRequest">Charging Request</string>
+    <string name="dischargingRequest">Discharging Request</string>
+    <string name="Reports">Reports</string>
+    <string name="CompetitorReport">Competitor Report</string>
+    <string name="VisitCustomer">Customer Visit</string>
+    <string name="DuplicatedConfiguration">There is another device configured with this salesman code. Please contact your system administrator</string>
+    <string name="stop">you can not continue</string>
+    <string name="stopMessage">Call the system administrator, there is another device for this salesman</string>
+    <string name="NoCustomerInfo">there is no customer information</string>
+    <string name="loading1">Loading The Data</string>
+    <string name="loading2">Will be re-run the program once the update is finished</string>
+    <string name="ItemWithoutStock">Item without stock</string>
+    <string name="ForceAnswerQuestions">You must answer all the questions.</string>
+    <string name="stop_Incorrect_sime">call the system administrator.</string>
+    <string name="GPSWarning">Be careful You current position does not match the customer Location</string>
+    <string name="TextCashierWarning">Are you sure you want to get money?</string>
+    <string name="AllCategories">All</string>
+    <string name="category">Category</string>
+    <string name="code">Code</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="area">Area</string>
+    <string name="mobile">Mobile</string>
+    <string name="telephone">Telephone</string>
+    <string name="visitstate">Visit Status</string>
+    <string name="TargetActual">Actual</string>
+    <string name="PPIncentive">PP حافز</string>
+    <string name="QIncentive">Q حافز</string>
+    <string name="customerCard">Customer Card</string>
+    <string name="Info">Info</string>
+    <string name="Visit">Start Visit</string>
+    <string name="singalstatus1">Network signal is weak</string>
+    <string name="singalstatus2">Please go near an opern window or open place</string>
+    <string name="singalstatus3">Network signal is strong</string>
+    <string name="AskToAddPayment">Do you want to add payment to the new order number?</string>
+    <string name="PURCHASED">Purchased</string>
+    <string name="UserChangeDateToEarlierDate">You are NOT ALLOWED To continue as you changed the date to earlier time !!!!</string>
+    <string name="NoMessagesToShow">No Messages to Display</string>
+    <string name="MustReadAllMessages">You must read all message first before you leave this page..</string>
+    <string name="btnShowMessage">Messages</string>
+    <string name="MessageNo">Message </string>
+    <string name="seen">Seen</string>
+    <string name="viewmessage">View Message</string>
+    <string name="CurrentDay">Today</string>
+    <string name="Add">ADD</string>
+    <string name="Achievement">Achievement</string>
+    <string name="CashierPasswordTitle">Cashier Password</string>
+    <string name="EnterCashierPassword">Please Enter Cashier Password</string>
+    <string name="CANTSELLGIFTITEM">You can\'t sell Gift Item</string>
+    <string name="GPSDisabled">GPS is disabled, Please enable GPS</string>
+    <string name="CancelOrder">Cancel The Order</string>
+    <string name="SoldAmount">Amount</string>
+    <string name="btnUnconstrainedOrder">Unconstrained Order</string>
+    <string name="SalesmanCreditLimitAlert">Check salesman credit limit</string>
+    <string name="UnconstrainedOrder">Unconstrained Order</string>
+    <string name="PriceOrder">Price per cr:</string>
+    <string name="ConnectivityAlert">You can\'t print and sync at this time due to connectivity error, please try again later.</string>
+    <string name="StockAlert">Stock has been updated.</string>
+    <string name="OrderCancelledAlert">This order already cancelled.</string>
+    <string name="TextCashierAmountError">The amount exceeded  maximum.</string>
+    <string name="Paid">Pay:</string>
+    <string name="Value">Value:</string>
+    <string name="CashierTitle">Cashier</string>
+    <string name="Discount">Dis:</string>
+    <string name="DiscountTitle">Discount</string>
+    <string name="AvailableCoupons">Available Coupons</string>
+    <string name="CoupounValue">Coupon Value :</string>
+    <string name="LargeCoupon">Coupon Value is greater than the total of order.</string>
+    <string name="CustomerInvoiceLimit">You can\'t make order with net value less than %1.</string>
+    <string name="CustomerObjectiveTitle">Customer Objectives</string>
+    <string name="btnCustomerObjectives">Customer Objectives</string>
+    <string name="lblObjectiveTitle">Objective:</string>
+    <string name="lblFollowUpTitle">Follow Up Date:</string>
+    <string name="lblOutcomeTitle">Outcome:</string>
+    <string name="lblResponseTitle">Next Step:</string>
+    <string name="lblCommentTitle">Comment:</string>
+    <string name="DateErrorMessage">Can not select Date before today</string>
+    <string name="GettingLocationMessage">S\'il vous plaît attendez jusqu\'à ce que nous finissions obtenir l\'emplacement ....</string>
+    <string name="OverwriteLocationMessage">Customer location already exist ,please contact administrator to enable overwrite it.</string>
+    <string name="lblLongtitudeTitle">Longitude:</string>
+    <string name="lblLatitudeTitle">Latitude:</string>
+    <string name="lblAccuracyTitle">Accuracy is very low, we can\'t save location with low accuracy.</string>
+    <string name="lblGPSConfirmation">Are you sure you want to overwrite old coordinates?</string>
+    <string-array name="CompetitorSelect">
+        <item>Select all</item>
+        <item>Unselect all</item>
+    </string-array>
+    <string name="btnCompetitor">Competitor Data</string>
+    <string name="lblPriceMessage">Please enter price per packing.</string>
+    <string name="lblItemWeight">Item Weight</string>
+    <string name="lblPackSize">Pack Size</string>
+    <string name="lblPricePerPackage">Price Per Package</string>
+    <string name="lblCurrency">Currency</string>
+    <string name="lblConsumption">Consumption</string>
+    <string name="lblComment">Comment</string>
+    <string name="btnSave">Save</string>
+    <string name="btnFSDataCollection">Demonstration</string>
+    <string name="lblCreditLimitTitle">Credit Limit:</string>
+    <string name="lblAddComment">Comment</string>
+    <string name="lblFromTitle">Dès:</string>
+    <string name="lblToTitle">à:</string>
+    <string name="lblOrdersNotCompletedTitle">Commandes pas complètement payé</string>
+    <string name="lblInvoiceNoTitle">Facture#:</string>
+    <string name="lblDebitTitle">Débit:</string>
+    <string name="lblCreditTitle">Crédit:</string>
+    <string name="lblBalanceTitle">Balance:</string>
+    <string name="lblPayTitle">Payer</string>
+    <string name="PltPriceOrder">Price per plt:</string>
+    <string name="lblFSSalesmanTitle">Sales Rep:</string>
+    <string name="lblSalesmanTitle">Salesman:</string>
+    <string name="FSSalesmanStock">Sales Rep Stock</string>
+    <string name="FSInvoice">TOF</string>
+    <string name="OrderTotal">Order Total:</string>
+    <string name="PhotosDownloadError">Error while downloading photos..........</string>
+    <string name="ReceivingPhotos">Receiving Photos</string>
+    <string name="PresentationMessage">Sorry no files are available for presentation</string>
+    <string name="LowDiskMessage">Unable to load the presentation files,please free some space or contact the support team.</string>
+    <string name="OpenPDFTitle">Click here to open File</string>
+    <string name="FileNotFoundTitle">File not found to open</string>
+    <string name="HCTotalSales">Home Care</string>
+    <string name="PCTotalSales">Personal Care</string>
+    <string name="FoodTotalSales">Food</string>
+    <string name="TotalTongue">Total Ton</string>
+    <string name="DistributorTitle">Choose Distributor</string>
+    <string name="FollowUpTitle">Follow Up Customers</string>
+    <string name="RoutePlanTitle">Route Plan Customers</string>
+    <string name="CustomerFollowUpObjectiveTitle">Follow Up Objectives</string>
+    <string name="OSAFSTitle">Demo Check</string>
+    <string name="FSTodayInvoiceTitle">Today TOF</string>
+    <string name="FSDiscountTitle">Dis</string>
+    <string name="Refresh">Refresh</string>
+    <string name="CurrentValue">Current Van Value: </string>
+    <string name="RequestedValue">Requested Value: </string>
+    <string name="maxAllowedLimit">Max Allowed Limit: </string>
+    <string name="Submit">Submit</string>
+    <string name="WarehouseStock">Warehouse Stock:</string>
+    <string name="CashVanStock">CashVan Stock:</string>
+    <string name="CartonPrice">Carton Price:</string>
+    <string name="RecordPrice">The Price:</string>
+    <string name="Carton"> CS </string>
+    <string name="ReturnAll">Return All Car Stock</string>
+    <string name="NotAcceptingFractions">Integers only</string>
+    <string name="TextNoItemSelected">No Item Selected !!</string>
+    <string name="TextRequestIsSaved">Data is Saved Successfully </string>
+    <string name="TextProblemInSavingData">There is a problem in saving some records, Kindly contact you admin</string>
+    <string name="TextRequestedLargerThanAllowed">Requested Value is larger than maximum allowed</string>
+    <string name="SendLogMenuHeader">Send Log</string>
+    <string name="SendLogMenuItem">Send logs</string>
+    <string name="OverrideCustomerLocation">Do you want to override the selected customer location by your current location?</string>
+    <string name="TooFarCustomerLocation">Your Location is too far from the recorded customer location,So we wont start your visit.</string>
+    <string name="CreditTermError">You must select credit Term</string>
+    <string name="customer_does_not_have_location">The Customer Does not has location. we will record this location as customer location. do you agree?.</string>
+    <string name="customer_over_write_location">The current location is not the location of the registered customer. Do you want to record it?</string>
+    <string name="far_from_customer_warning">Are you sure you want to bill the customer outside the location range?</string>
+    <string name="Focus">Focus</string>
+    <string name="Assortment">Assortment</string>
+    <string name="All">All</string>
+    <string name="Other">Other</string>
+    <string name="Suggest">Suggest: </string>
+    <string name="btnRecommendation">Recommendation</string>
+    <string name="RecommendationConfirmation">The customer has shelf capacity recommendation press cancel and get recommendation or press continue to resume your visit</string>
+    <string name="PacksizeName"> </string>
+    <string name="PacksizeTargetPrice">T : </string>
+    <string name="PacksizeTargetQuantity">T : </string>
+    <string name="PacksizeActualPrice">A : </string>
+    <string name="PacksizeActualQuantity">A : </string>
+    <string name="PacksizeRestPrice">ACH : </string>
+    <string name="CustomerAchievement_MTD">MTD </string>
+    <string name="CustomerAchievement_current">Current </string>
+    <string name="CustomerAchievement_previous">Previous </string>
+    <string name="CustomerAchievement_QTD">QTD </string>
+    <string name="CustomerAchievement_GrowthRate">Growth Rate </string>
+    <string name="btnCustomerAchievements">Customer Achievements</string>
+    <string name="btnCustomerOffInvoice">Off Invoice Disscount</string>
+    <string name="CustomerOffInvoiceCreation">Creation Date </string>
+    <string name="CustomerOffInvoiceUntil">Valid Until </string>
+    <string name="All_Brands">All Brands</string>
+    <string name="far_by_distance">The visit location is far from the customer by %1 m</string>
+    <string name="customer_has_not_location">The customer does not have a location, SAWA will record this location as the customer location</string>
+    <string name="data_processing">Please wait data is processed...</string>
+    <string name="scan_bar_code">Scan Barcode</string>
+
+    <string name="required_actions_title">Select Required Action</string>
+    <string name="cabinet_conditions_title">Select Cabinet Condition</string>
+
+
+    <string name="select_cabinet">Select Cabinet Condition</string>
+    <string name="required_action">Select Required Action</string>
+    <string name="custom_action">Enter Your Custom Action</string>
+    <string name="due_date">select Due Date</string>
+    <string name="cabinets_selection">You must Select a Cabinet to start your visit</string>
+    <string name="msg_empty">Can\'t be emty!</string>
+    <string name="msg_valid_date">Required Date Can\'t be Less Than Current Date</string>
+    <string name="msg_force_action_selection">You must select An Action</string>
+    <string name="scanner_app">You have to install the scanner application</string>
+    <string name="scanner_app_error1">Can not connect to the barcode platform</string>
+    <string name="scanner_app_error2">No Barcode Scanned</string>
+    <string name="scanner_no_cabinet">Can not find customer has this cabinet</string>
+    <string name="low_signal">The network signal is weak. Please stand near the window or in the open air</string>
+    <string name="high_signal">The network signal is powerful</string>
 </resources>

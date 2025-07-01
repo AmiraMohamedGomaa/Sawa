@@ -4,4 +4,524 @@
     <string name="password_label">كلمة المرور</string>
     <string name="admin_password_label">كلمة مرور الأدمن</string>
     <string name="continue_button">استكمال</string>
+
+    <string name="TextReturnedNotExceedTotal">اقصى قيمة يمكن دفعها للفواتير المرتجعة هى قيمة الفاتورة</string>
+    <string name="Next">التالى</string>
+    <string name="Previous">السابق</string>
+    <string name="Total">الاجمالى:</string>
+    <string name="Net">الاجمالى</string>
+    <string name="Discount">خصم</string>
+    <string name="Tax">ضرائب</string>
+    <string name="OrderNo">طلب#</string>
+    <string name="Edit">تعديل</string>
+    <string name="PCCS">ك / ل</string>
+    <string name="Item">منتج</string>
+    <string name="Price">سعر</string>
+    <string name="Reset">مسح الكل</string>
+
+    <string name="TextSalesmanStock">مخزن المندوب</string>
+    <string name="TextCarStock">مخزن السيارة</string>
+    <string name="TextIsPrintSucceed">هل تمت عملية الطباعة بنجاح</string>
+    <string name="TextPrintErrorRetry">هل تريد الطباعة مرة اخرى؟</string>
+    <string name="AlertTitle">التاكد من العملية</string>
+    <string name="YES">نعم</string>
+    <string name="NO">لا</string>
+    <string name="OK">موافق</string>
+    <string name="cancelOrderConfirmationMessage">هل تريد الغاء الطلب?</string>
+    <string name="GeneralTargets">الخطة العامة</string>
+    <string name="CurrentMonth">الشهر الحالى</string>
+
+    <string name="CurrentDay">اليوم</string>
+    <string name="salesector">قطاع البيع</string>
+    <string name="Target">الهدف</string>
+    <string name="Actual">الفعلى</string>
+    <string name="Rest">الانـجاز</string>
+
+    <string name="TotalSales">مبيعات اليوم</string>
+    <string name="NumberOfVisits">عدد الزيارات</string>
+    <string name="Productivity">الانتاجية</string>
+    <string name="AvgLPC">متوسط LPC</string>
+    <string name="InitSales">بيع اولى</string>
+    <string name="DealingWithCustomers">العملاء المتعاملين</string>
+
+    <string name="TodaySalesWOTaxes">مبيعات اليوم بدون ضرائب</string>
+    <string name="TodaySalesWTaxes">مبيعات اليوم بالضرائب</string>
+
+    <string name="PreviousMonth">الشهر السابق</string>
+    <string name="ItemTarget">خطة الاصناف</string>
+    <string name="Close">اغلاق</string>
+    <string name="ItemName">اسم المنتج</string>
+
+    <string name="CarStore">مخزن السيارة</string>
+    <string name="ItemCode">كود المنتج</string>
+    <string name="Opening">افتتاحى</string>
+    <string name="Current">حالى</string>
+    <string name="Sold">مباع</string>
+    <string name="Print">طباعة</string>
+
+    <string name="chkDataCollection">تجميع البيانات</string>
+    <string name="chkPresentation">تقديم</string>
+    <string name="chkInvoice">فاتورة</string>
+    <string name="btnCustomerInfo">معلومات العميل</string>
+    <string name="btnCustomerTarget">اهداف العملاء</string>
+    <string name="btnPreviousInvoice">الفواتير السابقة</string>
+    <string name="btnTodayInvoice">فواتير اليوم</string>
+    <string name="btnCustomerComments">تعليقات العميل</string>
+    <string name="btnReturnedInvoice">فاتورة مترجعة</string>
+    <string name="btnSalesmanStock">مخزن المندوب</string>
+    <string name="btnDataColection">تجمع بيانات</string>
+    <string name="btnMasterComand">تجميع بيانات</string>
+    <string name="btnNegativecall">زيارة سلبية</string>
+    <string name="btnPayment">الدفع</string>
+    <string name="btnReports">تقارير</string>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">ســـــــوا</string>
+    <string name="WEEK_DAYS_PROMPT">اختر يوم</string>
+    <string-array name="WEEK_DAYS">
+        <item>السبت</item>
+        <item>الاحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الاربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+        <item>كل الايام</item>
+    </string-array>
+
+    <string name="PAYMENT_TYPE_PROMPT">اختر طريقة الدفع</string>
+    <string-array name="PAYMENT_TYPE">
+        <item>الكل</item>
+        <item>نقدى</item>
+        <item>شيك</item>
+        <item>آجل</item>
+    </string-array>
+
+    <string name="TextInvoicesReports">تقارير الفواتير</string>
+    <string name="TextOrderAllowPacketsPerCartons">ب/ل/ك</string>
+    <string name="TextOrderPacketsPerCartons">ك / ل</string>
+    <string name="TextSoldItems">الكميات المباعة</string>
+    <string name="Competitors">اختر المنافس</string>
+    <string name="CompetitionField">اختر مجال المنافسة</string>
+    <string name="CompetitorProducts">اختر منتجات المنافس</string>
+    <string name="AdvertisingMaterial">اختر المواد الدعائية</string>
+    <string name="Comments">
+    <u>تعليقات</u>
+  </string>
+
+
+    <string name="PaymentTypetitle">نوع الدفع</string>
+    <string-array name="paymentType_array">
+        <item>نقدى</item>
+        <item>اجل</item>
+        <item>شيك</item>
+    </string-array>
+    <string name="DeliveryDateTitle">تاريخ الاستلام</string>
+    <string name="ChangeDate">تغير التاريخ</string>
+    <string name="Comment">تعليقات</string>
+    <string name="Delete">حذف</string>
+    <string name="CreditLimit">حد الائتمان</string>
+    <string name="Balance">المديونية:</string>
+    <string name="DiscountPerc">Dis%</string>
+    <string name="Percentage">%</string>
+    <string name="TextInvoice">&lt; فاتورة &gt;</string>
+    <string name="TextReturnedInvoice">&lt; فاتورة مرتجعة &gt;</string>
+    <string name="TextCustomerExceededCreditLimit" formatted="false">Customer exceeded credit limit of %1, current balance is %2.Rejected new balance is %3.Please ask customer to pay %4 to be able to save the order.</string>
+    <string name="TextSalesmanExceededCreditLimit" formatted="false"> لقد تجاوزت الحد الائتمانى لك وهو %1.انت لا تستطيع عمل فاتوره بأجمالى اكبر من %2 </string>
+    <string name="TextOrderExit" formatted="false">هل تريد الخروج؟</string>
+    <string name="TextExceedMaxDiscount" formatted="false">لا يمكن تجاوز الحد الاقصى لنسبة الخصم %1</string>
+    <string name="ItemNo">منتج#</string>
+    <string name="AskToEnterChequeNo">من فضلك ادخل رقم الشيك</string>
+    <string name="TextOrderNotFound">رقم هذا الطلب غير موجود فى قائمة الطلبات. هل تريد تكملة العمل مع هذا الطلب؟</string>
+
+    <string name="Customer">اختر العميل</string>
+    <string name="CategoryType">اختر الفئة</string>
+
+    <string-array name="CATEGORY_TYPE">
+        <item></item>
+        <item>اسبوعى</item>
+        <item>شهرى</item>
+        <item>ربع سنوى</item>
+        <item>المقترح</item>
+    </string-array>
+
+    <string name="TextSelectCustomer">من فضلك اختر العميل</string>
+    <string name="CustomerComplaintsTitle">
+    <u>شكاوى العميل:</u>
+  </string>
+
+    <string name="NegativeCallTitle">
+    <u>زيارة سلبية:</u>
+  </string>
+
+    <string name="ReportTypes">اختر نوع التقرير</string>
+    <string-array name="REPORT_TYPE">
+        <item>المبيعات</item>
+        <item>المخزن</item>
+        <item>الاهداف</item>
+    </string-array>
+
+    <string name="Pay">
+    <u>دفع</u>
+  </string>
+    <string name="OpenOrderFilter">تدقيق</string>
+    <string name="stock">مخزون:</string>
+    <string name="view">عرض</string>
+    <string-array name="Order_Filter">
+        <item>الكل</item>
+        <item>الاولويه</item>
+        <item>اصناف التركيز</item>
+        <item>اخرى</item>
+    </string-array>
+    <string name="DeleteOrderLine">مسح المنتج من الطلب</string>
+    <string name="DeleteALLOrderLines">مسح كل المنتجات من الطلب</string>
+    <string name="CopySameQtyAsBefore">نسخ نفس القيمة السابقة</string>
+    <string name="EditActions">تعديل</string>
+    <string name="TextInvalidPrice">لا يمكن طلب هذا المنتج لعدم وجود سعر للمنتج</string>
+    <string name="TextNoStock">لا يوجد مخزون كافى</string>
+    <string name="TextInsufficientPromotedItems">لايوجد مخزون كافى من الاصناف المروجة رقم الصنف %1</string>
+    <string name="ANSWERS">اختر الاجابة</string>
+    <string name="SURVEY_CATEGORY">اختر فئة</string>
+    <string name="DataCollectionSave1">بعض الاسئلة غير مجابة.</string>
+    <string name="DataCollectionSave2">هل تريد حفظ البيانات و الخروج؟</string>
+    <string name="DataCollectionAlert">تم حفظ البيانات</string>
+    <string name="ErrorMessage">لا يمكن حفظ البيانات</string>
+    <string name="save">حفظ</string>
+    <string name="EndJourneyHeader">
+
+   <!--
+  <string name="OSATITLE">On Shelf Availability</string>
+  <string name="SOSTITLE">Share of Shelf</string>
+  <string name="SHELFSTDTITLE">Questions</string>
+  <string name="PRICETITLE">Price Compliance</string>
+  <string name="FOLDERTITLE">Share of folder</string>
+  <string name="PROMAVTITLE">Promotion Availability</string>
+  <string name="NPDTITLE">NPD</string>
+  <string name="POSTITLE">Pos Material</string>-->
+        <u><b>نهاية الرحلة</b></u>
+  </string>
+    <string name="StartJourneyHeader">
+    <u><b>بداية الرحلة</b></u>.
+  </string>
+    <string name="TextEnterJourneyStartKm">من فضلك ادخل قرآة عداد الكيلومترات فبل بداية الرحلة</string>
+    <string name="TextEnterJourneyEndKm">من فضلك ادخل قرآة عداد الكيلومترات قبل نهاية الرحلة</string>
+
+    <string name="EndJourney">نهاية الرحلة</string>
+    <string name="Warning">تحزير:</string>
+    <string name="WarningText1">بنهاية رحلة لا يمكنك أستخدام النظام حتى تقوم ببداية رحلة او تحديث البيانات</string>
+    <string name="WarningText2">سوف تعلق فى هذه المرحلة حتى تتصل بالشبكة عن طريق الكمبيوتر او جى بى أر أس</string>
+    <string name="WarningText3">اضغط على الزر الذى يحتوى جزء من النص للتكمله</string>
+    <!--Applicable & not-->
+    <string name="APPLICABLE">متاح</string>
+    <string name="NOTAPPLICABLE">غير متاح</string>
+    <string name="I">  انا  </string>
+    <string name="WantTo">اريد</string>
+    <string name="Proceed">المتابعة</string>
+    <string name="Confirm">انا</string>
+    <string name="Cancel">الغاء</string>
+    <string name="TextUserMustSync">يجب مزامنة البيانات قبل بداية الرحلة الجديدة</string>
+    <string name="OSATITLE">كشف الرف</string>
+    <string name="SOSTITLE">حصة الرف</string>
+    <string name="SHELFSTDTITLE">الاسئلة</string>
+    <string name="PRICETITLE">السعر</string>
+    <string name="FOLDERTITLE">الحصة من المجلد</string>
+    <string name="PROMAVTITLE">العروض المتاحة</string>
+    <string name="NPDTITLE">الاصناف الجديدة</string>
+    <string name="POSTITLE">المواد الدعائية</string>
+    <string name="New_Version_Notification">Please go to the Office to sync using cable to get the new Application version.</string>
+    <string name="PleaseWait">من فضلك الانتظار</string>
+    <string name="Upload_Notification">تم ارسال البيانات للجهاز الخادم</string>
+    <string name="WAIT_For_SYNCDOWN">جارى الان استقبال كافة التعديلات اللازمة لتشغيل سوا سيتم تشغيل البرنامج عند تلقائيا عند الانتهاء من هذة الخطوة</string>
+    <string name="SalesmanStock">رصيد المندوب</string>
+    <string name="CarStock">رصيد السيارة</string>
+    <string name="PltPerCrt">ك/ب:</string>
+    <string name="PriceOrder">السعر:</string>
+    <string name="OSA">ك.ر:</string>
+    <string name="InvalidPrice">غير متاح</string>
+    <string name="AllBrands">كل البراند</string>
+    <string name="Regular">عادى</string>
+    <string name="Promoted">المروج</string>
+    <string name="RegularPlusPromoted">العادى+المروج</string>
+    <string name="Ordered">المطلوب</string>
+    <string name="GSV">الاجمالى:</string>
+    <string name="CS">ك:</string>
+    <string name="PLT">ل:</string>
+    <string name="PC">ب:</string>
+    <string name="OrderDetBalance">المديونية</string>
+    <string name="OrderDetTotal">الصافى</string>
+    <string name="TextCartonPerPallet">ل/ك</string>
+    <string name="TextCartonPerPacket">ب/ل/ك</string>
+    <string name="entersalesmanCode">من فضلك ادخل رقم المندوب للتنزيل جميع بياناتة من الجهاز الخادم</string>
+    <string name="SalesmanCodeTitle">رقم الكود</string>
+    <string name="GetSalesmanInfo">استقبال بيانات العميل من فضلك الانتظار قليلا</string>
+    <string name="WarningSalesmanCode">من فضلك ادخل رقم المندوب</string>
+    <string name="RetrievingSalesmanInfo">استقبال بيانات العميل من فضلك الانتظار قليلا</string>
+    <string name="Unabletoretrieve">لا يمكن الاستعلام عن مندوب البيع بسبب الخطأ التالى</string>
+    <string name="SalesmanInfoTitle">تم الاستعلام عن بيانات المندوب</string>
+    <string name="Continue">استكمال</string>
+    <string name="InvalidAdminPassword">خطأ فى كلمة المرور</string>
+    <string name="SetupNewSalesmanSuccessful">تم اعداد الجهاز بنجاح لمندوب البيع الجديد ولكنك لن تكون قادرا على استخدام سوا حتى يتم الانتهاء من عملية المزامنة</string>
+    <string name="EnterAdminPassword">من فضلك اجعل مسؤل النظام يقوم بادخال كلمة المرور للتصديق على هذة العملية</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="SalesmanAdminPasswordTitle">تعريف مشرف النظام</string>
+    <string name="SyncWaitTitle">
+    <h1>ســــــــــوا</h1>
+  </string>
+    <string name="DownloadFailed">فشل تحميل البيانات</string>
+    <string name="DownloadComplete">نجاح تحميل البيانات</string>
+    <string name="StartSyncError">خطأ فى بداية عملية مزامنة البيانات</string>
+    <string name="SyncUpError">خطأ فى ارسال البيانات</string>
+    <string name="WrongPassword">خطأ فى كلمة المرور</string>
+    <string name="NO_VALID_COUPONS">لا يوجد كوبون صحيح لهذا العميل</string>
+    <string name="lblSyncMessage1">Please wait until data is received ... This process may take a few minutes.</string>
+    <string name="ReceivingData">استقبال البيانات ......</string>
+    <string name="SYSTEMFAULT">خطأ فى ســـــوا</string>
+    <string name="SyncDownError">خطأ فى تحديث البيانات. نأسف لوقف النظام حتى يتم تصحيح هذا الخطأ من فضلك الاتصال بالدعم الفنى</string>
+    <string name="AdvertisingMaterials">المواد الدعائية</string>
+    <string name="ActivityType">النشاط</string>
+    <string name="CaseConfiguration">شكل الباكت</string>
+    <string name="CompetitorTitle">المنافس</string>
+    <string name="Consumer">المستهلك</string>
+    <string name="Journey">رحلة</string>
+    <string name="PriceCom">سعر المنافس</string>
+    <string name="Product">المنتج</string>
+    <string name="Promotiononproduct">المنتج المروج</string>
+    <string name="PromotionStartDate">تاريخ الترويج</string>
+    <string name="Seller">البائع</string>
+    <string name="YieldOfProduct">Yield Of Product</string>
+
+    <string name="CustomerCardTitle">كارت العميل</string>
+    <string name="CustomerTitle">العميل:</string>
+    <string name="SHOW">اظهار:</string>
+    <string name="BRAND">براند:</string>
+    <string name="STOCK">مخزون</string>
+    <string name="PURCHASED">استهلاك</string>
+
+    <string name="TextCharge">شحن</string>
+    <string name="ItemLoading">شحن السيارة</string>
+    <string name="DischargeAll">تفريغ كل الاصناف</string>
+    <string name="LimitValue">الحد الاقصى:</string>
+    <string name="StockValue">المخزون:</string>
+    <string name="CrtPlus">ك+:</string>
+    <string name="PltPlus">ب+:</string>
+    <string name="CrtMinus">ك-:</string>
+    <string name="PltMinus">ب-:</string>
+    <string name="Recommended">المقترح:</string>
+    <string name="TextSecurityStock">الاصناف المحمله اقل من المقترح</string>
+    <string name="TextDischargeError">الاصناف الراجعه اقل من المخزون</string>
+    <string name="TextMaximumSalesmanStockLimitExceeded" formatted="false">لقد تجاوزت الحد الاقصى للسيارة من %2 الى %1</string>
+    <string name="DischargeWarning">هل أنت متأكد من أنك تريد تفريغ جميع الاصناف؟</string>
+    <string name="SYNC">ارسال بيانات</string>
+    <string name="NoThingToCharge">لا يوجد اصناف للشحن او التفريغ</string>
+    <string name="CreditTerm">حد الدفع</string>
+    <string name="LPPC">LPPC</string>
+    <string name="ECO">ECO</string>
+    <string name="ECOPer">ECO%</string>
+
+    <string name="Branch">الفرع</string>
+    <string name="Salesman">المندوب</string>
+    <string name="Synchronization">تزامن البيانات</string>
+    <string name="StartJourney">ابدأ الرحله</string>
+    <string name="ItemLoad">تحميل البيانات</string>
+    <string name="Chargment">Chargment</string>
+    <string name="Cashier">الصراف</string>
+    <string name="Plan">الخطه</string>
+    <string name="Reports">التقارير</string>
+    <string name="CompetitorReport">تقارير المنافسين</string>
+    <string name="VisitCustomer">زياره عميل</string>
+    <string name="DuplicatedConfiguration">لا يمكنك الاستمرار لوجود جهاز اخر لنفس المندوب..برجاء الاتصال بمسئول النظام </string>
+    <string name="stop">لا يمكنك الاستمرار</string>
+    <string name="stopMessage">اتصل بمسئول النظام ,يوجد جهاز اخر لنفس المندوب</string>
+    <string name="NoCustomerInfo">لا توجد بيانات للعميل</string>
+    <string name="loading1">جارى تحميل احدث البيانات</string>
+    <string name="loading2">سوف يتم اعاده تشغيل البرنامج بمجرد الانتهاء من التحديث</string>
+    <string name="ItemWithoutStock">منتجات بدون رصيد</string>
+    <string name="ForceAnswerQuestions">يجب الاجابة على كل الاسئلة.</string>
+    <string name="stop_Incorrect_sime">اتصل بمسئول النظام</string>
+    <string name="GPSWarning">Be careful You current position does not match the customer Location</string>
+    <string name="TextCashierWarning">Are you sure you want to get money?</string>
+    <string name="AllCategories">الـكـل </string>
+    <string name="category">الفئه</string>
+    <string name="name">الاسم</string>
+    <string name="code">الكود</string>
+    <string name="address">العنوان</string>
+    <string name="area">المنطقه</string>
+    <string name="mobile">الموبايل</string>
+    <string name="telephone">التليفون</string>
+    <string name="visitstate">حاله الزياره</string>
+    <string name="TargetActual">الفغلى</string>
+    <string name="PPIncentive">PP Incentive</string>
+    <string name="QIncentive">Q Incentive</string>
+    <string name="customerCard">كارت العميل</string>
+    <string name="Info">بيانات</string>
+    <string name="MakePaymentMessage">Make payment to save</string>
+    <string name="Visit">بدء الزياره</string>
+    <string name="singalstatus1">اشاره الشيكه ضعيفه</string>
+    <string name="singalstatus2">برجاء التواجد قرب نافذه او بمكان مفتوح</string>
+    <string name="singalstatus3">اشاره الشبكه قويه</string>
+    <string name="AskToAddPayment">Do you want to add payment to the new order number?</string>
+    <string name="UserChangeDateToEarlierDate">غير مسموح لك بالاستمرار لانك قمت بتغيير التاريخ الى وقت سابق للوقت الفعلى!!!</string>
+    <string name="NoMessagesToShow">لا توجد رسائل لعرضها</string>
+    <string name="MustReadAllMessages">لا يمكنك الخروج من الصفحه الا بعد مشاهده جميع الرسائل الغير مقرؤه</string>
+    <string name="btnShowMessage">الرسائل</string>
+    <string name="MessageNo">الرساله  </string>
+    <string name="seen">تمت مشاهدته</string>
+    <string name="viewmessage">شاهد الرسائل</string>
+    <string name="Add">اضف</string>
+    <string name="Achievement">الانجاز</string>
+    <string name="CashierPasswordTitle">كلمه السـر</string>
+    <string name="EnterCashierPassword">برجاء ادخال كلمه سر الصـراف</string>
+    <string name="CANTSELLGIFTITEM">لا يمكنك بيع صنف الهديه</string>
+    <string name="CancelOrder">الغاء الطلب</string>
+    <string name="GPSDisabled">خدمة الجي بي إس معطلة. برجاء قم بتشغيلها</string>
+    <string name="SoldAmount">اجمالى</string>
+    <string name="btnUnconstrainedOrder">فواتير غير محددة</string>
+    <string name="SalesmanCreditLimitAlert">التحقق من الحد الائتمانى للمندوب</string>
+    <string name="UnconstrainedOrder">فواتير غير محددة</string>
+    <string name="ConnectivityAlert">لا يمكنك الطباعة والمزامنة في هذا الوقت بسبب خطأ اتصال، يرجى المحاولة مرة أخرى في وقت لاحق.</string>
+    <string name="StockAlert">تم تحديث المخزن</string>
+    <string name="OrderCancelledAlert">لقد تم الغاء الفاتوره بالفعل</string>
+    <string name="TextCashierAmountError">لقد تجاوزت الحد الاقصى.</string>
+    <string name="Paid">دفع:</string>
+    <string name="Value">القيمة:</string>
+    <string name="CashierTitle">الصراف</string>
+    <string name="DiscountTitle">خصم</string>
+    <string name="AvailableCoupons">الكوبونات المتاحة</string>
+    <string name="CoupounValue">قيمه الكوبون :</string>
+    <string name="LargeCoupon">قيمة الكوبون اكبر من اجمالى الفاتورة.</string>
+    <string name="CustomerInvoiceLimit">انت لا تستطيع عمل فاتوره بصافى بدون ضرائب اقل من %1.</string>
+    <string name="CustomerObjectiveTitle">أهداف الزياره</string>
+    <string name="btnCustomerObjectives">أهداف الزيارة</string>
+    <string name="lblObjectiveTitle">الهدف:</string>
+    <string name="lblFollowUpTitle">تاريخ المتابعة:</string>
+    <string name="lblOutcomeTitle">النتيجة:</string>
+    <string name="lblResponseTitle">الرد:</string>
+    <string name="lblCommentTitle">التعليق:</string>
+    <string name="DateErrorMessage">لا يمكنك اختيار تاريخ قبل اليوم</string>
+    <string name="GettingLocationMessage">من فضلك انتظر حتى نتمكن من الحصول على الموقع.....</string>
+    <string name="OverwriteLocationMessage">موقع العميل موجود بالفعل .من فضلك اتصل بالمسؤل  لكى تتمكن من الحصول على الموقع مره اخرى.</string>
+    <string name="lblLongtitudeTitle">خط الطول:</string>
+    <string name="lblLatitudeTitle">خط العرض:</string>
+    <string name="lblAccuracyTitle">الدقة فى ايجاد الموقع ضعيفه جدا.لا نستطيع حفظ الموقع بهذه الدقة.</string>
+    <string name="lblGPSConfirmation"> هل انت متأكد انك تريد استبدال الاحداثيات القديمه بالاحداثيات الجديده؟ </string>
+    <string name="btnCompetitor">المنافسين</string>
+    <string name="lblPriceMessage">من فضلك ادخل سعر الكرتونة.</string>
+    <string-array name="CompetitorSelect">
+        <item>تحديد الكل</item>
+        <item>الغاء تحديد الكل</item>
+    </string-array>
+    <string name="lblItemWeight">وزن المنتج</string>
+    <string name="lblPackSize">حجم الكرتونة</string>
+    <string name="lblPricePerPackage">سعر الكرتونة</string>
+    <string name="lblCurrency">العملة</string>
+    <string name="lblConsumption">الاستهلاك</string>
+    <string name="lblComment">تعليق</string>
+    <string name="btnSave">حفظ</string>
+    <string name="btnFSDataCollection">اظهار</string>
+    <string name="lblCreditLimitTitle">حد الائتمان:</string>
+    <string name="lblAddComment">تعليق</string>
+    <string name="lblFromTitle">Dès:</string>
+    <string name="lblToTitle">à:</string>
+    <string name="lblOrdersNotCompletedTitle">Commandes pas complètement payé</string>
+    <string name="lblInvoiceNoTitle">Facture#:</string>
+    <string name="lblDebitTitle">Débit:</string>
+    <string name="lblCreditTitle">Crédit:</string>
+    <string name="lblBalanceTitle">Balance:</string>
+    <string name="lblPayTitle">Payer</string>
+    <string name="PltPriceOrder">سعر البالتة</string>
+    <string name="FSInvoice">TOF</string>
+    <string name="lblFSSalesmanTitle">Sales rep:</string>
+    <string name="lblSalesmanTitle">Salesman:</string>
+    <string name="FSSalesmanStock">Sales rep Stock</string>
+    <string name="OrderTotal">أجمالى الفاتورة</string>
+    <string name="PhotosDownloadError">Error while downloading photos.</string>
+    <string name="ReceivingPhotos">Receiving Photos</string>
+    <string name="PresentationMessage">عذرا لا تتوفر ملفات للعرض</string>
+    <string name="LowDiskMessage">لا يمكنك تحميل الصور .برجاء مسح بعض الملفات الغير مهمه او الاتصال بفريق الدعم.</string>
+    <string name="OpenPDFTitle">انقر هنا لفتح الملف</string>
+    <string name="FileNotFoundTitle">الملف غير موجود</string>
+    <string name="HCTotalSales">العنايه المنزليه</string>
+    <string name="PCTotalSales">العنايه الشخصيه</string>
+    <string name="FoodTotalSales">غذاء</string>
+    <string name="TotalTongue">اجمالى الاطنان</string>
+    <string name="DistributorTitle">Choose Distributor</string>
+    <string name="CustomerFollowUpObjectiveTitle">Follow Up Objectives</string>
+    <string name="OSAFSTitle">Demo Check</string>
+    <string name="FSTodayInvoiceTitle">Today TOF</string>
+    <string name="FSDiscountTitle">Dis</string>
+    <string name="FollowUpTitle">Follow Up Customers</string>
+    <string name="RoutePlanTitle">Route Plan Customers</string>
+    <string name="TextCashierPaymentMessage">Vous devez payer %1</string>
+
+    <string name="Refresh">تحديث</string>
+    <string name="CurrentValue">سعر مخزون العربية: </string>
+    <string name="RequestedValue">سعر المخزون المطلوب: </string>
+    <string name="maxAllowedLimit">أقصى قيمة مسموحة للطلب: </string>
+    <string name="Submit">إرسال</string>
+    <string name="WarehouseStock">م المخزن: </string>
+    <string name="CashVanStock">م العربية: </string>
+    <string name="CartonPrice">سعر الكرتونة:</string>
+    <string name="RecordPrice">السعر :</string>
+    <string name="Carton">ك</string>
+    <string name="ReturnAll">إرجاع الكل</string>
+    <string name="NotAcceptingFractions">ارقام صحيحة فقط</string>
+
+    <string name="TextNoItemSelected">لم يتم اختيار شئ</string>
+    <string name="TextRequestIsSaved">لقد تم حفظ البيانات بنجاح</string>
+    <string name="TextProblemInSavingData">هناك خطأ فى حفظ بعض البيانات</string>
+    <string name="TextRequestedLargerThanAllowed">القيمة المطلوبة اكبر من المسموح</string>
+    <string name="SendLogMenuHeader">ارسال الاعطال</string>
+    <string name="SendLogMenuItem">ارسال الاعطال</string>
+    <string name="OverrideCustomerLocation">هل تريد تعديل موقع العميل الذى تم إختياره بموقعك الحالى؟</string>
+    <string name="TooFarCustomerLocation">موقعك الحالى بعيد عن موقع العميل المسجل على النظام , لذلك لن نمكنك من بدأ الزياره حتى تكون قريبا من موقع العميل</string>
+    <string name="CreditTermError">You must select credit Term</string>
+    <string name="customer_does_not_have_location">لا يوجد موقع لهذا العميل هل تريد تسجيل موقع العميل الحالى؟</string>
+    <string name="customer_over_write_location">الموقع الحالي ليست في موقع العميل مسجلة. هل تريد الكتابة عليه؟</string>
+    <string name="far_from_customer_warning">هل أنت متأكد أنك تريد القيام الفواتير خارج محيط العملاء</string>
+    <string name="Focus">اصناف التركيز</string>
+    <string name="Assortment">الاولويه</string>
+    <string name="All">الكل</string>
+    <string name="Other">اخرى</string>
+    <string name="Suggest">مقترح: </string>
+    <string name="btnRecommendation">سحب الفاتورة المقترحة</string>
+    <string name="RecommendationConfirmation">يوجد للعميل فاتورة مقترحة لملأ نواقص الرف اضغظ الغاء ثم سحب الفاتورة المقترحة او اضغط استكمال لاستكمال زيارتك</string>
+    <string name="PacksizeName">اسم المقاس : </string>
+    <string name="PacksizeTargetPrice">هدف السعر : </string>
+    <string name="PacksizeTargetQuantity">هدف الكمية : </string>
+    <string name="PacksizeActualPrice">السعر الفعلي : </string>
+    <string name="PacksizeActualQuantity">الكمية الفعلية : </string>
+    <string name="PacksizeRestPrice">ناتج السعر : </string>
+    <string name="PacksizeRestQuantity">ناتج الكمية : </string>
+    <string name="CustomerAchievement_MTD">الشهر حتى اليوم</string>
+    <string name="CustomerAchievement_current">الحالي</string>
+    <string name="CustomerAchievement_previous">السابق</string>
+    <string name="CustomerAchievement_QTD">الربع حتى اليوم </string>
+    <string name="CustomerAchievement_GrowthRate">معدل النمو</string>
+    <string name="btnCustomerAchievements">محققات العميل</string>
+    <string name="btnCustomerOffInvoice">خصومات العميل</string>
+    <string name="CustomerOffInvoiceCreation">تاريخ النزول</string>
+    <string name="CustomerOffInvoiceUntil">صالح حتى</string>
+    <string name="All_Brands">All Brands</string>
+    <string name="customer_has_not_location">لا يوجد مكان لهذا العميل. سوا سوف يقوم بتسجيل المكان الحالى كمكان للعميل</string>
+    <string name="data_processing">من فضلك الانتظار حتى تتم معالجة البيانات</string>
+
+    <string name="required_actions_title">حدد الإجراء المطلوب</string>
+    <string name="cabinet_conditions_title">حدد حالة التلاجة</string>
+
+    <string name="select_cabinet">اختار حالة الثلاجة</string>
+    <string name="required_action">اختار الفعل المطلوب</string>
+    <string name="custom_action">ادخل فعل محدد</string>
+    <string name="due_date">حدد التاريخ</string>
+    <string name="cabinets_selection">لابد من تحديد التلاجة لبدء الزياره</string>
+    <string name="msg_empty">قم بملئ هذا الحقل</string>
+    <string name="msg_valid_date">يجب ان يكون التاريخ اكبر من اليوم</string>
+    <string name="msg_force_action_selection">يجب تحديد الاجراء اولا</string>
+    <string name="scanner_app">يشترط تثبيت تطبيق الماسح الضوئي اولا</string>
+    <string name="scanner_app_error1">لا يمكن الاتصال بمنصة الباركود</string>
+    <string name="scanner_app_error2">لم يتم المسح الضوئي</string>
+    <string name="scanner_no_cabinet">لا يوجد عميل متوافق مع الكود</string>
+    <string name="low_signal">اشـاره الشـبـكـه ضــعيـــفـــه  برجاء الوقوف قرب النافذه او فى الهواء الطلق</string>
+    <string name="high_signal">اشـاره الشـبـكـه قـــويـــه</string>
+    <string name="WarningSalesmanpass" >من فضلك ادخل كلمة المرور</string>
+    <string name="scan_bar_code">Scan Barcode</string>
+    <string name="far_by_distance">The visit location is far from the customer by %1 m</string>
 </resources>
